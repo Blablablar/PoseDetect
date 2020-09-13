@@ -124,14 +124,14 @@ class CameraXLivePreviewActivity :
     }
     val spinner = findViewById<Spinner>(R.id.spinner)
     val options: MutableList<String> = ArrayList()
-    options.add(OBJECT_DETECTION)
-    options.add(OBJECT_DETECTION_CUSTOM)
-    options.add(FACE_DETECTION)
-    options.add(TEXT_RECOGNITION)
-    options.add(BARCODE_SCANNING)
-    options.add(IMAGE_LABELING)
-    options.add(IMAGE_LABELING_CUSTOM)
-    options.add(AUTOML_LABELING)
+//    options.add(OBJECT_DETECTION)
+//    options.add(OBJECT_DETECTION_CUSTOM)
+//    options.add(FACE_DETECTION)
+//    options.add(TEXT_RECOGNITION)
+//    options.add(BARCODE_SCANNING)
+//    options.add(IMAGE_LABELING)
+//    options.add(IMAGE_LABELING_CUSTOM)
+//    options.add(AUTOML_LABELING)
     options.add(POSE_DETECTION)
     // Creating adapter for spinner
     val dataAdapter =
